@@ -1,0 +1,116 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.container {
+    width: 1160px;
+    margin: 0 auto;
+}
+.col-md-6 {
+    width: 49%;
+    display: inline-block;
+}
+.row {
+    display: flex;
+    overflow: hidden;
+}
+
+
+.header-aria {
+    border: 1px solid #0003;
+    padding: 15px 0px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: #00000080;
+}
+
+.nav ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+.nav {
+    text-align: right;
+}
+.nav ul li a {
+    display: inline-block;
+    padding: 18px 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+.nav ul li a:hover {
+    color: #f00;
+    transition: .3s;
+}
+
+.login-from-aria {
+    height: 100vh;
+    background: url(img/1.jpg) no-repeat center center /cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.login-aria input {
+    display: block;
+    padding: 16px 16px;
+    border-radius: 5px;
+    border: none;
+}
+.login-aria input {
+    width: 70%;
+    margin: 20px;
+    cursor: pointer;
+}
+.row {
+    width: 100%;
+}
+.login-from-aria .col-md-12 {
+    width: 100%;
+}
+
+
+.optiondrop select {
+    width: 75%;
+    padding: 18px 23px;
+}
+
+.col-md-2 {
+    width: 20%;
+    display: inline-block;
+}
+
+.col-md-10 {
+    width: 78%;
+    display: inline-block;
+}
+
+
+.left-menu ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.left-menu ul li a {
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 18px 0px;
+    display: block;
+}
+.left-menu {
+    background: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 24px;
+}
